@@ -1,7 +1,3 @@
-Certainly! Here is an expanded version of the methodology section, with an additional section mentioning the availability of the final report in the repository.
-
----
-
 # Metabolic Syndrome Classification Project
 
 ### Project Overview
