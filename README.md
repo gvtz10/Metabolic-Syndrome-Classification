@@ -1,5 +1,9 @@
 # Metabolic Syndrome Classification Project
+---
+### Final Report
+The **Final_Project_Report.pdf** is included in the repository. It offers a thorough description of the project, including the problem statement, literature review, data description, modeling techniques, and results. The report serves as a comprehensive guide to understanding the project's scope and contributions. Below is a brief summary of the project overview, but for a complete understanding, reading the full report is recommended. 
 
+---
 ### Project Overview
 This project focuses on the classification of **Metabolic Syndrome** using various machine learning models. The dataset used is from Kaggle and includes a variety of health-related features such as age, BMI, waist circumference, cholesterol levels, and more. The goal of this project is to develop accurate predictive models that can assist in early detection of Metabolic Syndrome, which can lead to serious health conditions such as diabetes, heart disease, and stroke. Several models were tested, including Logistic Regression, Random Forest, Neural Networks, and XGBoost.
 
@@ -70,13 +74,9 @@ The dataset used is titled `Metabolic Syndrome.csv`. It includes 2,401 observati
    - **Cross-Validation Accuracy**: K-Fold Cross-Validation (with 5 folds) was used to evaluate the generalizability of each model.
    - **Accuracy on Test Set**: The accuracy of each model was calculated on the held-out test set to determine real-world performance.
    - **F1 Score**: This metric was used to balance precision and recall, ensuring that models did not just maximize accuracy but also reduced false positives and false negatives.
+   - **Interpretability**: Given the high stakes in medical applications, the model's interpretability was critically assessed. This includes evaluating how easily healthcare professionals can understand the model's decision-making process and rationale. High interpretability is essential for ensuring trust, validating clinical decisions, and providing actionable insights for patient care.
 
    Results showed that the **Neural Network** had the best performance on the test set with an accuracy of 91.4%, followed closely by **XGBoost** at 88.4%. However, XGBoost was more interpretable and is potentially more useful in a healthcare setting where transparency is critical.
-
----
-
-### Final Report
-The **Final_Project_Report.pdf** is also included in the repository. It provides a detailed description of the project, including the problem statement, literature review, data description, modeling techniques, and results. The report serves as a comprehensive guide to understanding the project's scope and contributions.
 
 ---
 
